@@ -1,4 +1,4 @@
-The student is able to write solution algorithms for the given problem
+Software Development. The student is able to write solution algorithms for the given problem
 with the chosen programming language.Line1; The student is able to identify
 the typical phases and activities in the software development process.
 The student knows the high level differences of the most common processes.
