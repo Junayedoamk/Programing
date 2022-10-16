@@ -1,0 +1,48 @@
+let array = ['a', 'b', 'c'];
+printReversedArray(array);
+
+function printReversedArray(array) {
+    array.reverse();
+for (i=0; i<=array.length-1;i++){
+    process.stdout.write(array[i]+" ");
+}
+}
+
+let array = [1,2,3,4,5,6,7,8,9,10];
+printReversedArray(array);
+
+function printReversedArray(array) {
+    array.reverse();
+for (i=0; i<=array.length-1;i++){
+    process.stdout.write(array[i]+" ");
+}
+}
+
+let numbers = [1,5,1, 5, 10, 12, 44];
+average(numbers);
+function average(numbers) {
+    let sum=0;
+    for (i=0; i<=numbers.length-1; i++){
+sum = sum + numbers[i];
+}
+    process.stdout.write((sum/numbers.length).toString());
+   }
+
+let numbers = [0, 0, 0, 0, 55];
+average(numbers);
+function average(numbers) {
+    let sum=0;
+    for (i=0; i<=numbers.length-1; i++){
+sum = sum + numbers[i];
+}
+    process.stdout.write((sum/numbers.length).toString());
+   }
+
+
+let cars =["Audi","Lada","Toyota","Ferrari"];
+simpleArray(cars);
+function simpleArray(cars) {
+  for (let i=0; i<=cars.length-1; i++){
+process.stdout.write(cars[i]+"\n");
+  }  
+}
